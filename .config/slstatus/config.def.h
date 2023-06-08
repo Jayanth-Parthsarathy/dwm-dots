@@ -68,6 +68,7 @@ static const struct arg args[] = {
     {run_command, "  %s  ", "~/.config/slstatus/player.sh"},
     {cpu_perc, "[CPU  %s%%]   ", NULL},
     {ram_perc, "[RAM  %s%%]   ", NULL},
+  {battery_perc, "[BAT   %s]  ", "BAT1"},
     {datetime, "%s", "%a %b %d %r"},
 };
 
